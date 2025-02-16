@@ -11,7 +11,7 @@ jobs:
         fetch-depth: 0
 
     - name: Package
-      run: mvm package
+      run: mvn package
 
   publish:
     runs-on: ubuntu-latest
